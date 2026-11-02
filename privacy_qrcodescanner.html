@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy | QR Code Scanner</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: #243447; background: #f3f6fa; }
+    * { box-sizing: border-box; }
+    body { margin: 0; line-height: 1.75; overflow-wrap: anywhere; }
+    main { max-width: 840px; margin: 40px auto; background: #fff; border: 1px solid #dde5ee; border-radius: 16px; padding: clamp(24px, 5vw, 56px); }
+    header { border-bottom: 1px solid #dde5ee; padding-bottom: 24px; }
+    .eyebrow { color: #287665; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; font-size: .8rem; }
+    h1 { font-size: clamp(2rem, 5vw, 2.75rem); line-height: 1.2; margin: 8px 0 16px; color: #152c42; }
+    h2 { font-size: 1.25rem; line-height: 1.4; color: #152c42; margin-top: 30px; }
+    p { margin: 12px 0; }
+    .meta { color: #526477; font-size: .95rem; }
+    a { color: #075f9b; text-underline-offset: 3px; }
+    a:focus-visible { outline: 3px solid #287665; outline-offset: 4px; }
+    ul { padding-inline-start: 24px; }
+    footer { border-top: 1px solid #dde5ee; margin-top: 32px; padding-top: 16px; font-size: .9rem; color: #526477; }
+    @media (max-width: 600px) { main { margin: 0; border: 0; border-radius: 0; } }
+    @media print { :root { background: #fff; } main { max-width: none; margin: 0; border: 0; padding: 0; } }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="eyebrow">QR Code Scanner</div>
+    <h1>Privacy Policy</h1>
+    <p>This policy explains how <strong>QR Code Scanner</strong>, provided by <strong>CKH</strong>, handles information when you use the mobile application.</p>
+    <p class="meta">Effective date: <time datetime="2026-10-31">October 31, 2026</time><br>Application ID: <code>com.scanteam.qrcodereader</code></p>
+  </header>
+
+  <section aria-labelledby="overview">
+    <h2 id="overview">1. About the App</h2>
+    <p>QR Code Scanner is a utility application for Android and Samsung Galaxy devices designed to scan, decode, generate, and organize QR codes and barcodes. The application is built with an offline-first architecture where privacy is paramount.</p>
+  </section>
+
+  <section aria-labelledby="data">
+    <h2 id="data">2. Information We Access or Collect</h2>
+    <p>QR Code Scanner operates primarily offline on your device:</p>
+    <ul>
+      <li><strong>Camera Feed:</strong> Used strictly in real-time memory to detect and decode barcode patterns via on-device machine learning (Google ML Kit). Camera video frames are processed instantaneously in volatile memory and are never recorded, saved to disk, or transmitted to any server.</li>
+      <li><strong>Photo Library Access:</strong> If you use the "Scan from Gallery" feature, the application reads only the specific image you pick to analyze barcode data. No other photos or personal media are accessed.</li>
+      <li><strong>Scan History & Generated Codes:</strong> Barcode strings you scan and QR codes you generate are saved locally in a private SQLite database on your device.</li>
+      <li><strong>Preferences:</strong> Your selected theme color palette, dark mode setting, and display language are stored locally via SharedPreferences.</li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="purposes">
+    <h2 id="purposes">3. How Information is Used</h2>
+    <p>Information processed by the app is used solely to provide core scanner functionality:</p>
+    <ul>
+      <li>To decode QR codes, barcodes, Wi-Fi credentials, contact cards (vCards), URLs, and text.</li>
+      <li>To allow you to review, search, and manage your past scans in the History tab.</li>
+      <li>To render and save your custom-generated QR codes to your device's photo gallery upon your explicit request.</li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="storage">
+    <h2 id="storage">4. Storage, Sharing, and Transfers</h2>
+    <p><strong>100% Local Storage:</strong> All your scan history and generated codes reside strictly on your device. We do not operate remote user databases or cloud synchronization services. We do not sell, rent, monetize, or transfer your personal scan data to any third party.</p>
+  </section>
+
+  <section aria-labelledby="services">
+    <h2 id="services">5. Third-Party Services and Advertising</h2>
+    <p>The application integrates reliable industry-standard SDKs to provide essential support services and advertising:</p>
+    <ul>
+      <li><strong>Google Play Services:</strong> Required on Android devices for base compatibility and ML Kit runtime operations. <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></li>
+      <li><strong>Google AdMob:</strong> Serves non-intrusive banner advertisements in designated reserved spaces. AdMob may collect anonymous advertising identifiers and usage diagnostics in accordance with Google's Advertising Policies. <a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">AdMob Privacy Information</a></li>
+      <li><strong>Google User Messaging Platform (UMP):</strong> Delivers European and regional consent choices regarding advertising cookies and identifiers.</li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="permissions">
+    <h2 id="permissions">6. Device Permissions and Your Choices</h2>
+    <p>The application may request the following permissions during use:</p>
+    <ul>
+      <li><code>CAMERA</code>: Needed to scan barcodes using the live viewfinder. You can revoke this permission anytime in your device Settings.</li>
+      <li><code>READ_MEDIA_IMAGES</code> / Storage: Used only when you choose to import an existing photo from your gallery for barcode analysis.</li>
+      <li><code>VIBRATE</code>: Provides haptic feedback upon successful decode.</li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="retention">
+    <h2 id="retention">7. Retention and Deletion</h2>
+    <p>You retain full control over your stored scan data. You can delete individual scan records or tap "Delete All" in the History screen to instantly purge all stored records from your device. Uninstalling the application completely erases all local database records and preferences.</p>
+  </section>
+
+  <section aria-labelledby="children">
+    <h2 id="children">8. Children's Privacy</h2>
+    <p>QR Code Scanner is a general utility tool and does not knowingly collect or solicit personal information from children under the age of 13. If you believe a child has provided personal information to us, please contact us immediately so we can take appropriate steps.</p>
+  </section>
+
+  <section aria-labelledby="security">
+    <h2 id="security">9. Security</h2>
+    <p>Because all scan history is contained locally within Android's sandboxed application storage, your information is protected by Android operating system access controls. No remote transmission vectors exist for your private scan records.</p>
+  </section>
+
+  <section aria-labelledby="rights">
+    <h2 id="rights">10. Privacy Requests</h2>
+    <p>Because we do not collect your personal data or store it on remote servers, we do not maintain accounts or identifiable user databases. All data modification and erasure can be performed directly within the app's interface.</p>
+  </section>
+
+  <section aria-labelledby="changes">
+    <h2 id="changes">11. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. The updated version will be indicated by an updated "Effective date" at the top of this page.</p>
+  </section>
+
+  <section aria-labelledby="contact">
+    <h2 id="contact">12. Contact</h2>
+    <p>If you have any questions or concerns regarding this Privacy Policy, please contact:<br>
+    <strong>CKH</strong><br>
+    Email: <a href="mailto:ckh.application@gmail.com">ckh.application@gmail.com</a></p>
+  </section>
+
+  <footer>QR Code Scanner · Privacy Policy · CKH</footer>
+</main>
+</body>
+</html>
+
