@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Weight Tracker &amp; BMI Diary</title>
+    <style>
+        :root {
+            --bg: #f8fafc;
+            --surface: #ffffff;
+            --ink: #0f172a;
+            --muted: #475569;
+            --line: #e2e8f0;
+            --accent: #2e7d32;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #090d16;
+                --surface: #111827;
+                --ink: #f8fafc;
+                --muted: #94a3b8;
+                --line: #1f2937;
+                --accent: #4ade80;
+            }
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--ink);
+            background-color: var(--bg);
+            margin: 0;
+            padding: 24px 16px;
+        }
+        .container {
+            max-width: 760px;
+            margin: 0 auto;
+            background: var(--surface);
+            padding: 32px;
+            border-radius: 16px;
+            border: 1px solid var(--line);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+        }
+        h1 {
+            font-size: 28px;
+            margin-top: 0;
+            color: var(--accent);
+        }
+        h2 {
+            font-size: 20px;
+            margin-top: 28px;
+            border-bottom: 1px solid var(--line);
+            padding-bottom: 8px;
+        }
+        p, li {
+            color: var(--muted);
+            font-size: 15px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        a {
+            color: var(--accent);
+            text-decoration: underline;
+        }
+        .meta-box {
+            background: var(--bg);
+            border-radius: 8px;
+            padding: 14px 18px;
+            margin-bottom: 24px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <div class="meta-box">
+            <strong>Application:</strong> Weight Tracker &amp; BMI Diary<br>
+            <strong>Service Provider:</strong> CKH<br>
+            <strong>Contact Email:</strong> <a href="mailto:ckh.application@gmail.com">ckh.application@gmail.com</a><br>
+            <strong>Effective Date:</strong> 2026-11-09
+        </div>
+
+        <p>This Privacy Policy explains how <strong>Weight Tracker &amp; BMI Diary</strong> (&quot;we&quot;, &quot;our&quot;, or &quot;the Application&quot;) handles your data. We are committed to protecting your privacy through an offline-first architecture that keeps personal health tracking information securely on your device.</p>
+
+        <h2>1. Offline-First &amp; Local Storage Commitment</h2>
+        <p>The Application is designed from the ground up to operate without cloud synchronisation or mandatory account creation:</p>
+        <ul>
+            <li><strong>Local Private Storage:</strong> Weight entries, dates, target goals, heights, profile names, settings and notes are stored in the Application's private SQLite database on your device. The Application does not add database encryption. Protection also depends on your device's operating system and security settings.</li>
+            <li><strong>Optional Profile Information:</strong> You may enter a birth date, gender identity and ethnic background. Birth date helps determine adult BMI eligibility on the record date; ethnic background can select the optional BMI interpretation reference. Gender identity is a profile detail and does not change the BMI formula. These fields remain in local app storage and can be edited or cleared in the profile editor.</li>
+            <li><strong>No Automatic Diary Uploads:</strong> The Application has no account or cloud-sync service and does not automatically send diary values or profile demographics to our servers or advertising services.</li>
+            <li><strong>Automatic Backup Disabled:</strong> Operating system automatic cloud backups (Android Auto Backup) are explicitly disabled in our configuration to prevent unintentional cloud uploads of sensitive personal health records.</li>
+            <li><strong>User-Directed CSV Export:</strong> CSV files contain the selected profile's record dates, weights in kilograms and entry notes. Android's document picker lets you choose a destination, which may be a cloud provider. Exported files are outside the Application's private storage and can be read by their recipient or storage provider. Manage and delete these copies separately.</li>
+        </ul>
+
+        <h2>2. Informational Health Screening Notice</h2>
+        <p>BMI uses weight in kilograms divided by height in metres squared. The Application offers optional general adult, NICE lower-threshold and Thai adult screening interpretations, an automatic reference selection with a general fallback, and an option to disable interpretation. Demographic selections do not change the numeric formula. Adult BMI requires the adult-profile setting; when a birth date is supplied, the Application also checks age 20 or older on the record date. Without a birth date, it relies on your adult-profile selection. BMI is informational, not a diagnosis or treatment recommendation, and is not intended for children, pets or pregnancy. Consult a qualified healthcare professional for personal health advice.</p>
+
+        <h2>3. Third-Party Services &amp; Advertising</h2>
+        <p>The Application includes Google Mobile Ads (AdMob) and Google's User Messaging Platform for advertising and consent. When advertising is enabled, the Application requests consent information and gates ad requests on the consent service's eligibility result. Local release builds without production advertising configuration do not initialize these services.</p>
+        <p>The Application does not pass diary values, notes, profile names, birth dates, gender identity or ethnic background to advertising APIs. Google's advertising services may process IP addresses (including approximate location inferred from them), advertising/device identifiers, app and ad interactions, and diagnostic information for advertising, analytics and fraud prevention. This network processing is separate from local diary storage. See Google's disclosures and policies:</p>
+        <ul>
+            <li><a href="https://www.google.com/policies/privacy/" target="_blank" rel="noopener">Google Play Services Privacy Policy</a></li>
+            <li><a href="https://support.google.com/admob/answer/6128543?hl=en" target="_blank" rel="noopener">Google AdMob Privacy Policy</a></li>
+            <li><a href="https://developers.google.com/admob/android/privacy/play-data-disclosure" target="_blank" rel="noopener">Google Mobile Ads data disclosure</a></li>
+        </ul>
+        <p>When Google's consent service requires a privacy-options entry, Settings &gt; Ad privacy choices lets you revisit those choices. Android's advertising settings also let you manage your advertising ID. Google determines its own retention and rights-handling processes under its policies.</p>
+
+        <h2>4. Device Security &amp; Biometrics</h2>
+        <p>The Application offers an optional screen lock utilizing your device's biometric authentication (fingerprint, face unlock) or device credential (PIN/pattern). This authentication is handled entirely by the Android operating system; the Application never accesses, reads, or stores your biometric credentials.</p>
+        <p>Device-credential fallback is available on supported Android 11 or later devices. The app lock controls access to the Application; it does not encrypt exported files. Optional reminders use notification permission on supported Android versions and may show your custom reminder message on the device screen. You can turn reminders off in the Application or manage notifications in Android Settings.</p>
+
+        <h2>5. Children's Privacy</h2>
+        <p>The Application is intended for adult users and is not directed to children under 13. Adult BMI eligibility works as described above; it is not an identity or age-verification service. Do not use adult BMI interpretation for children.</p>
+
+        <h2>6. Data Retention &amp; Deletion</h2>
+        <p>You control the local diary records:</p>
+        <ul>
+            <li>You can edit profiles and delete individual weight entries after confirmation. Archiving a profile hides it but keeps its records; archiving is not deletion.</li>
+            <li>Clearing Application storage in Android Settings or uninstalling removes the app-managed local diary and preferences. It does not remove files you exported or data processed independently by Google.</li>
+            <li>There is no server-side diary account for us to retrieve or delete. Export a copy before removing local app data if you wish to keep your records. CSV export is not an in-app restore/import feature.</li>
+        </ul>
+        <p>Depending on your location, you may have rights concerning personal data, such as access, correction, deletion, objection or withdrawal of consent. Manage local diary data in the Application and contact us with privacy questions. For data processed independently by Google, use the controls and contacts in Google's policies. This policy may be updated; the effective date above identifies this version.</p>
+
+        <h2>7. Contact Us</h2>
+        <p>If you have any questions, feedback, or concerns regarding this Privacy Policy, please contact us at:</p>
+        <p><strong>Email:</strong> <a href="mailto:ckh.application@gmail.com">ckh.application@gmail.com</a><br>
+        <strong>Website:</strong> <a href="https://heng-ck.github.io/" target="_blank" rel="noopener">https://heng-ck.github.io/</a></p>
+    </div>
+</body>
+</html>
+
